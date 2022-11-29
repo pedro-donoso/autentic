@@ -18,6 +18,6 @@ import { getAuth } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-auth
   };
 
   // Initialize Firebase
- export const app = initializeApp(firebaseConfig);
+export const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
   
